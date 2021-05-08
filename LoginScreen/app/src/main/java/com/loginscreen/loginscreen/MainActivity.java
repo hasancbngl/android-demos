@@ -1,11 +1,12 @@
-package com.sumzed.loginscreen;
+package com.loginscreen.loginscreen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
-import com.sumzed.loginscreen.databinding.ActivityMainBinding;
+
+import com.loginscreen.loginscreen.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         ActivityMainBinding binding;
 
         //bind the view
-       binding =  ActivityMainBinding.inflate(getLayoutInflater());
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
 
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         //execute whatever inside {] take view as a parameter
         binding.signUpButton.setOnClickListener(v -> {
-            Toast.makeText(getApplicationContext(),username + " " + password , Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), username + " " + password, Toast.LENGTH_SHORT).show();
         });
 
     }
