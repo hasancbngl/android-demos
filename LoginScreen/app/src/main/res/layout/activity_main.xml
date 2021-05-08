@@ -5,7 +5,6 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#efefef"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -23,11 +22,13 @@
             android:id="@+id/editTextUsername"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/background"
             android:ems="10"
             android:hint="username"
             android:inputType="textPersonName"
             android:padding="16dp"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="16sp" />
 
         <EditText
@@ -35,11 +36,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:background="@drawable/background"
+            android:backgroundTint="#ffffff"
             android:ems="10"
             android:hint="password"
             android:inputType="textPassword"
             android:padding="16dp"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="16sp" />
 
         <Button
@@ -47,6 +51,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"
+            android:backgroundTint="#b23d41"
             android:padding="10dp"
             android:text="Sign Up"
             android:textSize="16sp" />
@@ -56,6 +63,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"
+            android:backgroundTint="#cccccc"
             android:padding="10dp"
             android:text="Login"
             android:textSize="16sp" />
