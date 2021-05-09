@@ -1,4 +1,4 @@
-package com.sumzed.loginscreen;
+package com.loginscreen.loginscreen;
 
 import android.content.Context;
 
